@@ -1,0 +1,13 @@
+C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\bin\Debug\AgendaElectronica.exe.config
+C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\bin\Debug\AgendaElectronica.exe
+C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\bin\Debug\AgendaElectronica.pdb
+C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\obj\Debug\AgendaElectronica.Form1.resources
+C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\obj\Debug\AgendaElectronica.Properties.Resources.resources
+C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\obj\Debug\AgendaElectronica.csproj.GenerateResource.cache
+C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\obj\Debug\AgendaElectronica.csproj.CoreCompileInputs.cache
+C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\obj\Debug\AgendaElectronica.exe
+C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\obj\Debug\AgendaElectronica.pdb
+C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\obj\Debug\AgendaElectronica.BuscarUserC.resources
+C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\obj\Debug\AgendaElectronica.EliminarUserC.resources
+C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\obj\Debug\AgendaElectronica.InsertarUserC.resources
+C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\obj\Debug\AgendaElectronica.ModificarUserC.resources
