@@ -77,13 +77,13 @@ namespace AgendaElectronica
             // 
             // dataGridView1
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(1, 124);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(515, 551);
+            this.dataGridView1.Size = new System.Drawing.Size(974, 267);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
@@ -92,7 +92,7 @@ namespace AgendaElectronica
             this.btnActualizar.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnActualizar.Font = new System.Drawing.Font("Rubik", 13F, System.Drawing.FontStyle.Bold);
             this.btnActualizar.ForeColor = System.Drawing.Color.White;
-            this.btnActualizar.Location = new System.Drawing.Point(666, 563);
+            this.btnActualizar.Location = new System.Drawing.Point(822, 614);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(125, 49);
             this.btnActualizar.TabIndex = 39;
@@ -105,7 +105,7 @@ namespace AgendaElectronica
             this.textBoxCorreoM.BackColor = System.Drawing.SystemColors.Control;
             this.textBoxCorreoM.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxCorreoM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.textBoxCorreoM.Location = new System.Drawing.Point(666, 439);
+            this.textBoxCorreoM.Location = new System.Drawing.Point(514, 469);
             this.textBoxCorreoM.Multiline = true;
             this.textBoxCorreoM.Name = "textBoxCorreoM";
             this.textBoxCorreoM.Size = new System.Drawing.Size(197, 30);
@@ -116,7 +116,7 @@ namespace AgendaElectronica
             this.textBoxMovilM.BackColor = System.Drawing.SystemColors.Control;
             this.textBoxMovilM.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxMovilM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.textBoxMovilM.Location = new System.Drawing.Point(666, 367);
+            this.textBoxMovilM.Location = new System.Drawing.Point(514, 397);
             this.textBoxMovilM.Multiline = true;
             this.textBoxMovilM.Name = "textBoxMovilM";
             this.textBoxMovilM.Size = new System.Drawing.Size(211, 30);
@@ -127,7 +127,7 @@ namespace AgendaElectronica
             this.textBoxTelefonoM.BackColor = System.Drawing.SystemColors.Control;
             this.textBoxTelefonoM.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxTelefonoM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.textBoxTelefonoM.Location = new System.Drawing.Point(666, 403);
+            this.textBoxTelefonoM.Location = new System.Drawing.Point(514, 433);
             this.textBoxTelefonoM.Multiline = true;
             this.textBoxTelefonoM.Name = "textBoxTelefonoM";
             this.textBoxTelefonoM.Size = new System.Drawing.Size(197, 30);
@@ -138,7 +138,7 @@ namespace AgendaElectronica
             this.textBoxApellidoM.BackColor = System.Drawing.SystemColors.Control;
             this.textBoxApellidoM.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxApellidoM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.textBoxApellidoM.Location = new System.Drawing.Point(666, 162);
+            this.textBoxApellidoM.Location = new System.Drawing.Point(138, 433);
             this.textBoxApellidoM.Multiline = true;
             this.textBoxApellidoM.Name = "textBoxApellidoM";
             this.textBoxApellidoM.Size = new System.Drawing.Size(211, 30);
@@ -149,7 +149,7 @@ namespace AgendaElectronica
             this.panel2.Controls.Add(this.radiobtnDivorciadoM);
             this.panel2.Controls.Add(this.radiobtnCasadoM);
             this.panel2.Controls.Add(this.radiobtnSolteroM);
-            this.panel2.Location = new System.Drawing.Point(668, 286);
+            this.panel2.Location = new System.Drawing.Point(138, 556);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(222, 75);
             this.panel2.TabIndex = 34;
@@ -157,7 +157,7 @@ namespace AgendaElectronica
             // radiobtnDivorciadoM
             // 
             this.radiobtnDivorciadoM.AutoSize = true;
-            this.radiobtnDivorciadoM.Location = new System.Drawing.Point(3, 26);
+            this.radiobtnDivorciadoM.Location = new System.Drawing.Point(6, 26);
             this.radiobtnDivorciadoM.Name = "radiobtnDivorciadoM";
             this.radiobtnDivorciadoM.Size = new System.Drawing.Size(76, 17);
             this.radiobtnDivorciadoM.TabIndex = 2;
@@ -168,7 +168,7 @@ namespace AgendaElectronica
             // radiobtnCasadoM
             // 
             this.radiobtnCasadoM.AutoSize = true;
-            this.radiobtnCasadoM.Location = new System.Drawing.Point(3, 49);
+            this.radiobtnCasadoM.Location = new System.Drawing.Point(6, 49);
             this.radiobtnCasadoM.Name = "radiobtnCasadoM";
             this.radiobtnCasadoM.Size = new System.Drawing.Size(61, 17);
             this.radiobtnCasadoM.TabIndex = 1;
@@ -179,7 +179,7 @@ namespace AgendaElectronica
             // radiobtnSolteroM
             // 
             this.radiobtnSolteroM.AutoSize = true;
-            this.radiobtnSolteroM.Location = new System.Drawing.Point(3, 3);
+            this.radiobtnSolteroM.Location = new System.Drawing.Point(6, 6);
             this.radiobtnSolteroM.Name = "radiobtnSolteroM";
             this.radiobtnSolteroM.Size = new System.Drawing.Size(58, 17);
             this.radiobtnSolteroM.TabIndex = 0;
@@ -191,7 +191,7 @@ namespace AgendaElectronica
             // 
             this.panelGenero.Controls.Add(this.radiobtnFemeninoM);
             this.panelGenero.Controls.Add(this.radiobtnMasculinoM);
-            this.panelGenero.Location = new System.Drawing.Point(668, 227);
+            this.panelGenero.Location = new System.Drawing.Point(138, 497);
             this.panelGenero.Name = "panelGenero";
             this.panelGenero.Size = new System.Drawing.Size(153, 53);
             this.panelGenero.TabIndex = 33;
@@ -223,7 +223,7 @@ namespace AgendaElectronica
             this.textBoxDireccionM.BackColor = System.Drawing.SystemColors.Control;
             this.textBoxDireccionM.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxDireccionM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.textBoxDireccionM.Location = new System.Drawing.Point(666, 482);
+            this.textBoxDireccionM.Location = new System.Drawing.Point(514, 512);
             this.textBoxDireccionM.Multiline = true;
             this.textBoxDireccionM.Name = "textBoxDireccionM";
             this.textBoxDireccionM.Size = new System.Drawing.Size(291, 75);
@@ -233,7 +233,7 @@ namespace AgendaElectronica
             // 
             this.dateTimePickerM.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.dateTimePickerM.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dateTimePickerM.Location = new System.Drawing.Point(666, 201);
+            this.dateTimePickerM.Location = new System.Drawing.Point(136, 471);
             this.dateTimePickerM.Name = "dateTimePickerM";
             this.dateTimePickerM.Size = new System.Drawing.Size(206, 20);
             this.dateTimePickerM.TabIndex = 31;
@@ -243,7 +243,7 @@ namespace AgendaElectronica
             this.textBoxNombreM.BackColor = System.Drawing.SystemColors.Control;
             this.textBoxNombreM.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxNombreM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.textBoxNombreM.Location = new System.Drawing.Point(666, 124);
+            this.textBoxNombreM.Location = new System.Drawing.Point(136, 397);
             this.textBoxNombreM.Multiline = true;
             this.textBoxNombreM.Name = "textBoxNombreM";
             this.textBoxNombreM.Size = new System.Drawing.Size(144, 30);
@@ -253,7 +253,7 @@ namespace AgendaElectronica
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Rubik", 13F, System.Drawing.FontStyle.Bold);
-            this.label10.Location = new System.Drawing.Point(570, 405);
+            this.label10.Location = new System.Drawing.Point(418, 435);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(92, 22);
             this.label10.TabIndex = 29;
@@ -263,7 +263,7 @@ namespace AgendaElectronica
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Rubik", 13F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(533, 441);
+            this.label9.Location = new System.Drawing.Point(381, 471);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(129, 22);
             this.label9.TabIndex = 28;
@@ -273,7 +273,7 @@ namespace AgendaElectronica
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Rubik", 13F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(543, 309);
+            this.label8.Location = new System.Drawing.Point(15, 559);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(117, 22);
             this.label8.TabIndex = 27;
@@ -283,7 +283,7 @@ namespace AgendaElectronica
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Rubik", 13F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(599, 369);
+            this.label7.Location = new System.Drawing.Point(447, 399);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(61, 22);
             this.label7.TabIndex = 26;
@@ -293,7 +293,7 @@ namespace AgendaElectronica
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Rubik", 13F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(568, 162);
+            this.label6.Location = new System.Drawing.Point(40, 435);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(92, 22);
             this.label6.TabIndex = 25;
@@ -303,7 +303,7 @@ namespace AgendaElectronica
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Rubik", 13F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(547, 199);
+            this.label5.Location = new System.Drawing.Point(17, 469);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(115, 22);
             this.label5.TabIndex = 24;
@@ -313,7 +313,7 @@ namespace AgendaElectronica
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Rubik", 13F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(563, 484);
+            this.label4.Location = new System.Drawing.Point(411, 514);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(97, 22);
             this.label4.TabIndex = 23;
@@ -323,7 +323,7 @@ namespace AgendaElectronica
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Rubik", 13F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(584, 239);
+            this.label3.Location = new System.Drawing.Point(56, 500);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 22);
             this.label3.TabIndex = 22;
@@ -336,7 +336,7 @@ namespace AgendaElectronica
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Rubik", 13F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(579, 126);
+            this.label2.Location = new System.Drawing.Point(51, 399);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 22);
             this.label2.TabIndex = 21;
@@ -345,7 +345,7 @@ namespace AgendaElectronica
             // textBuscarM
             // 
             this.textBuscarM.BackColor = System.Drawing.SystemColors.Control;
-            this.textBuscarM.Location = new System.Drawing.Point(6, 72);
+            this.textBuscarM.Location = new System.Drawing.Point(286, 82);
             this.textBuscarM.Name = "textBuscarM";
             this.textBuscarM.Size = new System.Drawing.Size(318, 20);
             this.textBuscarM.TabIndex = 40;
@@ -355,7 +355,7 @@ namespace AgendaElectronica
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Rubik", 10F, System.Drawing.FontStyle.Bold);
-            this.label11.Location = new System.Drawing.Point(3, 52);
+            this.label11.Location = new System.Drawing.Point(165, 85);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(115, 17);
             this.label11.TabIndex = 41;
@@ -365,7 +365,7 @@ namespace AgendaElectronica
             // 
             this.button1.BackColor = System.Drawing.SystemColors.Control;
             this.button1.Image = global::AgendaElectronica.Properties.Resources.Very_Basic_Search_icon;
-            this.button1.Location = new System.Drawing.Point(330, 54);
+            this.button1.Location = new System.Drawing.Point(610, 64);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(78, 54);
             this.button1.TabIndex = 42;
@@ -375,7 +375,7 @@ namespace AgendaElectronica
             // button2
             // 
             this.button2.Image = global::AgendaElectronica.Properties.Resources.Very_Basic_Update_icon;
-            this.button2.Location = new System.Drawing.Point(414, 55);
+            this.button2.Location = new System.Drawing.Point(694, 64);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 53);
             this.button2.TabIndex = 43;

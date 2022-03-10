@@ -11,3 +11,4 @@ C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\obj\Debug\Agenda
 C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\obj\Debug\AgendaElectronica.EliminarUserC.resources
 C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\obj\Debug\AgendaElectronica.InsertarUserC.resources
 C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\obj\Debug\AgendaElectronica.ModificarUserC.resources
+C:\Users\18297\source\repos\AgendaElectronica\AgendaElectronica\obj\Debug\AgendaElectronica.csproj.AssemblyReference.cache
